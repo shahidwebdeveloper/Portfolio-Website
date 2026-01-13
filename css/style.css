@@ -31,7 +31,7 @@ html{
 body{
     background: var(--bg-color);
   color: var(--text-color);
-    font-family: 'Poppins' sans-serif;
+  font-family: "Poppins", sans-serif;
   
 }
 
@@ -138,6 +138,10 @@ margin-left: 4rem;
     100% {
         transform: translateY(0);
     }
+ }
+ .home-content {
+    max-height: 500px;
+    padding-bottom: 100px;
  }
 
 .home-content h3{
@@ -456,6 +460,11 @@ margin-bottom: 5rem;
 
 .footer{
     display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+width: 100%;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -530,10 +539,17 @@ margin-bottom: 5rem;
 @media (max-width: 768px){
     #menu-icon{
         display: block;
+        padding-right:  50px;
+    }
+       
+
+    .home{
+        padding-top: 100px;
     }
 
     .home-img img{
 margin: auto;
+
     }
 
 
