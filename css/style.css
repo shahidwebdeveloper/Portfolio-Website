@@ -460,7 +460,6 @@ margin-bottom: 5rem;
 
 .footer{
     display: flex;
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -633,13 +632,19 @@ margin: auto;
     .contact form .input-box input{
         width: 100%;
     }
+
+    .home-img img{
+      margin-top: 100px;
+    }
 }
 
 @media (max-width: 365px){
     .home-img img{
         width: 90vw;
         margin-bottom: 10rem;
+        margin-top: 200px;
     }
+
 
 
     .about-img img{
