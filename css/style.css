@@ -32,6 +32,7 @@ body{
     background: var(--bg-color);
   color: var(--text-color);
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
   
 }
 
@@ -77,16 +78,14 @@ section{
     top: 100%;
     left: 0;
     width: 100%;
-    padding: 1rem 3%;
+    padding: 2rem 9%;
     background: var(--bg-color);
     border-top: .1rem solid rgba(0,0,0, .2);
     box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
     display: none;
 }
 
-.navbar.active{
-    display: block;
-}
+
 
 
 .navbar a{
@@ -113,7 +112,7 @@ margin-left: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 9%;
+ padding: 1rem 5%;
     gap: 5rem;
 
 }
@@ -220,7 +219,7 @@ span{
    gap: 5rem;
   
 
-  padding: 2rem 9%;
+  padding: 1rem 5%;
 
     
 
@@ -462,13 +461,13 @@ margin-bottom: 5rem;
     display: flex;
     bottom: 0;
     left: 0;
-    right: 0;
-    width: 100%;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
     background:  var(--second-bg-color);
+    box-sizing: border-box;
 }
 
 .footer-text{
@@ -538,8 +537,10 @@ margin-bottom: 5rem;
 @media (max-width: 768px){
     #menu-icon{
         display: block;
-        padding-right:  25px;
+        padding-right: 2rem;
     }
+
+  
        
 
     .home{
@@ -632,12 +633,16 @@ margin: auto;
     html{
         font-size: 50%;
     }
+
+    .home{
+        padding-top: 120px ;
+    }
     .contact form .input-box input{
         width: 100%;
     }
 
     .home-img img{
-      margin-top: 100px;
+      margin-top: 70px;
       margin-bottom: -50px;
     }
 
@@ -655,6 +660,10 @@ margin: auto;
     }
      .footer{
         width: 100%;
+    }
+
+     .home{
+        padding-top: 20px ;
     }
 
 
