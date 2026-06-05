@@ -543,19 +543,6 @@ margin-bottom: 5rem;
         padding-right: 2rem;
     }
 
-  
-       
-
-    .home{
-        padding-top: 100px;
-    }
-
-    .home-img img{
-margin: auto;
-
-    }
-
-
     .navbar{
         position: absolute;
         top: 100%;
@@ -565,7 +552,10 @@ margin: auto;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2) ;
-       
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
     }
 
     .navbar.active {
@@ -576,7 +566,10 @@ margin: auto;
     .navbar a{ 
         display: block;
         font-size: 2rem;
-        margin: 3rem 0;
+        margin: 1rem 0;
+        padding: 1rem 1.5rem;
+        border-radius: 1rem;
+        background: rgba(255,255,255,0.03);
     }
 
 
