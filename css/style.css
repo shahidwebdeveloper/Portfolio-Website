@@ -574,7 +574,7 @@ margin-bottom: 5rem;
 
 
     .home{
-        
+        padding-top: 14rem;
         flex-direction: column;
     }
 
@@ -631,7 +631,7 @@ margin-bottom: 5rem;
     }
 
     .home{
-        padding-top: 120px ;
+        padding-top: 140px;
     }
     .contact form .input-box input{
         width: 100%;
@@ -659,7 +659,7 @@ margin-bottom: 5rem;
     }
 
      .home{
-        padding-top: 20px ;
+        padding-top: 180px;
     }
 
 
